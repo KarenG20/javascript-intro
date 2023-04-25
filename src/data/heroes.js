@@ -25,5 +25,7 @@ const heroes = [
         owner: 'Marvel'
     },
 ];
-
-const owners = ['DC','Marvel'];
+// Si tenemos algo no en una fucntión se va ejecutar
+//console.log('Heroes.js');
+export const owners = ['DC','Marvel'];
+export default heroes;
